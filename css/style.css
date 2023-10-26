@@ -1,0 +1,81 @@
+.navbar{
+    border-bottom: 2px solid black;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.nav{
+    float: right;
+    padding: 10px;
+}
+
+.navbar a{
+    color:black ;
+    text-decoration-line: none;
+    padding: 7px;
+    border: 2px ridge black;
+    border-radius: 10px;
+
+}
+
+.nav a:hover{
+    color: rgb(190, 190, 104);
+}
+
+.section{
+    border-bottom: 2px ridge black;
+    padding-bottom: 50px;
+}
+
+.slideshow {
+    padding: 20px;
+}
+
+.slideshow img{
+    width: 100%;
+}
+
+.our{
+    border-bottom: 2px ridge black;
+    padding: 20px;
+
+}
+.wrap{
+    display:flex;
+    justify-content: space-around;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.message{
+    display: flex;
+    justify-content:space-around;
+}
+
+.pesan{
+    display: flex;
+}
+.btn{
+    width: fit-content;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        display: flex;
+    }
+    .nav {
+        display: flex;
+        flex-direction:column;
+    }
+}

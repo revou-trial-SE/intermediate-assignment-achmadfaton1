@@ -4,10 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Revou</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>16-oct-23-achmadfaton1</title>
 </head>
 <body>
+    <div class="navbar">
+        <img src="/asset/download.png" alt="img" >
+        <div class="nav">
+            <a href="#navbar">Home</a>
+            <a href="#section">Our Profile</a>
+            <a href="#quarter">Portofolio</a>
+            <a href="#message">Message Us</a>
+        </div>
+    </div>
+    <section class="section">
+        <div>
+            <h1>Hi I'm Fatoni, Welcome to website</h1>
+            <p>ini adalah latihan pertama</p>
+        </div>
+        <div class="slideshow">
+
+            <div class="slide">
+              <img src="asset/1.png" >
+            </div>
+            
+            <div class="slide">
+              <img src="asset/2.png" >
+            </div>
+            
+            <div class="slide">
+              <img src="asset/3.png" >
+            </div>
+            
+            </div>
+
+    </section>
+    <article class="our">
+        <div>
+
+            <h1>Our Headquarter</h1>
+        </div>
+
+        <div class="wrap">
+            <div class="quarter">
+                <div class="circle">
+                </div>
+                <div class="desc">
+                    <h3>Jakarta</h3>
     
+                </div>
+            </div>
+            <div class="quarter">
+                <div class="circle">
+                </div>
+                <div class="desc">
+                    <h3>Bandung</h3>
+    
+                </div>
+            </div>
+            <div class="quarter">
+                <div class="circle">
+                </div>
+                <div class="desc">
+                    <h3>surabaya</h3>
+                </div>
+            </div>
+        
+        </div>
+        
+            
+        
+    </article>
+    <article>
+        <h2>Message Us</h2>
+    </article>
+
+    <section class="form">
+        <div class="form_l">
+            <form id="myForm">
+                <table class="table">
+                    <tr id="tr_name">
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td class="nama"><input id="name" name="name" type="text" placeholder="Name" required></td>
+                    </tr>
+                    <tr id="tr_date">
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td class="ttl"><input id="date" type="date" required></td>
+                    </tr>
+                    <tr id="tr_gender">
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <input id="male" type="radio" value="Laki-laki" name="gender">
+                            <label for="laki-laki"> Laki-laki </label>
+                            <input id="female" type="radio" value="Perempuan" name="gender">
+                            <label for="perempuan"> Perempuan </label>
+                        </td>
+                    </tr>
+                    <tr id="tr_messege">
+                        <td class="pesan1">Pesan</td>
+                        <td class="pesan2">:</td>
+                        <td class="Pesan_form"><input id="message" type="text" name="message"
+                                placeholder="Your Message" required></td>
+                    </tr>
+                </table>
+
+                <input type="submit" class="submit" onclick="onSubmit();return false" value="Submit">
+                
+            </form>
+
+        </div>
+        <div class="display" id="submitdisplay"></div>
+    </section>
+    <script>
+        let userName = prompt("Masukkan nama Anda dibawah!");
+        document.getElementById("username").innerText = userName;
+      </script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
