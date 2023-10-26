@@ -63,11 +63,15 @@
     justify-content:space-around;
 }
 
-.pesan{
-    display: flex;
+.form{
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+
 }
-.btn{
-    width: fit-content;
+
+.footer{
+    margin-top: 20px;
+    text-align: end;
 }
 
 @media only screen and (max-width: 600px){
